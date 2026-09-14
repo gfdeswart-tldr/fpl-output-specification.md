@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>FPL GW5</title>
+<style>
+:root{--ink:#1a1a18;--muted:#77766f;--line:#e4e2da;--bg:#faf9f5;--card:#fff;
+--in:#eaf3de;--in-line:#8ab84a;--warn:#faeeda;--out:#f7f0ee;--band:#bcd2e8;--tick:#2c5f8f;--grid:#efeee8}
+*{box-sizing:border-box}
+body{margin:0;padding:24px;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+h1{font-size:22px;font-weight:500;margin:0 0 4px}h2{font-size:17px;font-weight:500;margin:34px 0 6px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+.banner{background:var(--warn);border-radius:8px;padding:12px 14px;font-size:13px;margin:0 0 20px;max-width:960px}
+.wrap{overflow:auto;max-height:78vh;background:var(--card);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:separate;border-spacing:0;font-size:13px;min-width:1200px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;background:var(--card)}
+thead th{position:sticky;top:0;z-index:2;font-weight:500;color:var(--muted);font-size:12px;cursor:pointer;user-select:none}
+thead th:hover{color:var(--ink)}
+thead th::after{content:" \2195";opacity:.3;font-size:10px}
+thead th.asc::after{content:" \2191";opacity:1}thead th.desc::after{content:" \2193";opacity:1}
+table.nosort thead th{cursor:default}table.nosort thead th::after{content:""}
+td.nm,th.nm{position:sticky;left:0;z-index:3;border-right:1px solid var(--line);white-space:normal;min-width:150px}
+thead th.nm{z-index:4}
+tr.new td{background:var(--in)}tr.new td.nm{background:var(--in);border-left:3px solid var(--in-line)}
+tr.r-out td{background:var(--out);color:var(--muted)}tr.r-in td{background:var(--in)}
+tr.r-d td{font-weight:500;border-bottom:2px solid var(--ink)}
+.team{display:block;font-size:11px;color:var(--muted)}.num{text-align:right}
+.cmt{white-space:normal;min-width:250px;color:var(--muted)}
+.sub2{display:block;font-size:11px;color:var(--muted)}
+tfoot td{position:sticky;bottom:0;font-weight:500;border-top:1px solid var(--ink);z-index:2}tfoot td.nm{z-index:3}
+.sp{position:relative;width:210px;height:20px;background:
+linear-gradient(90deg,transparent 0 calc(25% - 1px),var(--grid) calc(25% - 1px) 25%,transparent 25%),
+linear-gradient(90deg,transparent 0 calc(50% - 1px),var(--grid) calc(50% - 1px) 50%,transparent 50%),
+linear-gradient(90deg,transparent 0 calc(75% - 1px),var(--grid) calc(75% - 1px) 75%,transparent 75%);
+border-bottom:1px solid var(--grid)}
+.sp .band{position:absolute;top:4px;height:12px;background:var(--band);border-radius:3px}
+.sp .tick{position:absolute;top:2px;width:2px;height:16px;background:var(--tick)}
+.sp .lo,.sp .hi{position:absolute;top:4px;font-size:10px;color:var(--muted);line-height:12px}
+.sp .lo{transform:translateX(-100%);padding-right:3px}.sp .hi{padding-left:3px}
+.d-pos{color:#2f7d32}.d-neg{color:#b3261e}
+.key{font-size:12px;color:var(--muted);margin:8px 0 0;max-width:960px}
+.tag{font-size:10px;padding:1px 6px;border-radius:9px;background:#efeee8;color:var(--muted);margin-left:4px}
+.nosort{min-width:900px}.nosort td,.nosort th{white-space:normal}
+</style></head><body>
+<h1>Gameweek 5</h1>
+<p class="sub">Deadline Friday 18 September, 19:30 CEST · Squad £98.4m · Bank £1.6m · 1 free transfer · No chips used</p>
+<div class="banner"><strong>Test run.</strong> Stats, prices, ownership and fixtures are live from the FPL API mirror.
+Win, draw and loss probabilities come from my own Poisson model, not yet blended with Opta — that lands Thursday.</div>
+
+<h2>1 · Transfer comparison</h2>
+<div class="wrap"><table class="nosort"><thead><tr>
+<th class="nm">Move</th><th>Player</th><th class="num">xPts</th><th class="num">Last 4</th><th class="num">Starts</th>
+<th class="num">Price</th><th class="num">xPts/&pound;m</th><th class="num">Own</th><th class="cmt">Verdict</th>
+</tr></thead><tbody><tr class="r-out"><td class="nm" rowspan="3">1<span class="team">+2.49 to XI</span></td>
+<td>Konsa <span class="tag">out</span><span class="team">ARS · DEF</span></td>
+<td class="num">2.1</td><td class="num">2.8</td><td class="num">2/4</td>
+<td class="num">£4.5m</td><td class="num">0.47</td><td class="num">17.1%</td>
+<td class="cmt" rowspan="3">Recommended. Biggest gain and lowers ownership.</td></tr>
+<tr class="r-in"><td>Murillo <span class="tag">in</span><span class="team">NFO · DEF</span></td>
+<td class="num">5.9</td><td class="num">4.8</td><td class="num">4/4</td>
+<td class="num">£5.5m</td><td class="num">1.07</td><td class="num">1.7%</td></tr>
+<tr class="r-d"><td>Difference</td><td class="num"><span class="d-pos">+3.7</span></td>
+<td class="num">+2.0</td><td class="num">+2</td>
+<td class="num"><span class="d-neg">-1.0m</span></td>
+<td class="num">+0.60</td>
+<td class="num"><span class="d-pos">-15.4pp</span></td></tr><tr class="r-out"><td class="nm" rowspan="3">2<span class="team">+2.49 to XI</span></td>
+<td>Virgil <span class="tag">out</span><span class="team">LIV · DEF</span></td>
+<td class="num">2.7</td><td class="num">4.2</td><td class="num">4/4</td>
+<td class="num">£6.5m</td><td class="num">0.41</td><td class="num">16.9%</td>
+<td class="cmt" rowspan="3">Same gain, frees £1.0m, but sells a premium asset on four matches.</td></tr>
+<tr class="r-in"><td>Murillo <span class="tag">in</span><span class="team">NFO · DEF</span></td>
+<td class="num">5.9</td><td class="num">4.8</td><td class="num">4/4</td>
+<td class="num">£5.5m</td><td class="num">1.07</td><td class="num">1.7%</td></tr>
+<tr class="r-d"><td>Difference</td><td class="num"><span class="d-pos">+3.2</span></td>
+<td class="num">+0.5</td><td class="num">+0</td>
+<td class="num"><span class="d-pos">+1.0m</span></td>
+<td class="num">+0.66</td>
+<td class="num"><span class="d-pos">-15.2pp</span></td></tr><tr class="r-out"><td class="nm" rowspan="3">3<span class="team">+0.95 to XI</span></td>
+<td>Konsa <span class="tag">out</span><span class="team">ARS · DEF</span></td>
+<td class="num">2.1</td><td class="num">2.8</td><td class="num">2/4</td>
+<td class="num">£4.5m</td><td class="num">0.47</td><td class="num">17.1%</td>
+<td class="cmt" rowspan="3">Safer. Same club and price bracket as Konsa, four starts from four.</td></tr>
+<tr class="r-in"><td>White <span class="tag">in</span><span class="team">ARS · DEF</span></td>
+<td class="num">4.3</td><td class="num">5.2</td><td class="num">4/4</td>
+<td class="num">£5.5m</td><td class="num">0.79</td><td class="num">7.4%</td></tr>
+<tr class="r-d"><td>Difference</td><td class="num"><span class="d-pos">+2.2</span></td>
+<td class="num">+2.5</td><td class="num">+2</td>
+<td class="num"><span class="d-neg">-1.0m</span></td>
+<td class="num">+0.32</td>
+<td class="num"><span class="d-pos">-9.7pp</span></td></tr><tr class="r-out"><td class="nm" rowspan="3">4<span class="team">+0.73 to XI</span></td>
+<td>Virgil <span class="tag">out</span><span class="team">LIV · DEF</span></td>
+<td class="num">2.7</td><td class="num">4.2</td><td class="num">4/4</td>
+<td class="num">£6.5m</td><td class="num">0.41</td><td class="num">16.9%</td>
+<td class="cmt" rowspan="3">Premium defender, but leaves only £0.1m in the bank.</td></tr>
+<tr class="r-in"><td>Gabriel <span class="tag">in</span><span class="team">ARS · DEF</span></td>
+<td class="num">4.1</td><td class="num">6.0</td><td class="num">4/4</td>
+<td class="num">£8.0m</td><td class="num">0.51</td><td class="num">23.7%</td></tr>
+<tr class="r-d"><td>Difference</td><td class="num"><span class="d-pos">+1.5</span></td>
+<td class="num">+1.8</td><td class="num">+0</td>
+<td class="num"><span class="d-neg">-1.5m</span></td>
+<td class="num">+0.10</td>
+<td class="num"><span class="d-neg">+6.8pp</span></td></tr><tr class="r-out"><td class="nm" rowspan="3">5<span class="team">+0.30 to XI</span></td>
+<td>Rogers <span class="tag">out</span><span class="team">CHE · MID</span></td>
+<td class="num">5.4</td><td class="num">6.8</td><td class="num">4/4</td>
+<td class="num">£7.7m</td><td class="num">0.70</td><td class="num">35.3%</td>
+<td class="cmt" rowspan="3">Marginal. Cherki has started two of four.</td></tr>
+<tr class="r-in"><td>Cherki <span class="tag">in</span><span class="team">MCI · MID</span></td>
+<td class="num">5.7</td><td class="num">8.3</td><td class="num">2/4</td>
+<td class="num">£7.8m</td><td class="num">0.73</td><td class="num">29.3%</td></tr>
+<tr class="r-d"><td>Difference</td><td class="num"><span class="d-pos">+0.3</span></td>
+<td class="num">+1.6</td><td class="num">-2</td>
+<td class="num"><span class="d-neg">-0.1m</span></td>
+<td class="num">+0.03</td>
+<td class="num"><span class="d-pos">-6.0pp</span></td></tr></tbody></table></div>
+<p class="key">Gain shown against each move number is the change in total projected XI points, captain included.</p>
+
+<h2>2 · Lineup</h2>
+<div class="wrap"><table class="nosort" style="min-width:820px"><thead><tr>
+<th class="nm">Decision</th><th>Change</th><th class="num">Effect</th><th class="cmt">Reason</th>
+</tr></thead><tbody>
+<tr><td class="nm">Captain &amp; vice</td><td>B. Fernandes (C), Gibbs-White (VC)<span class="team">was João Pedro (C), B. Fernandes (VC)</span></td>
+<td class="num">+0.5</td><td class="cmt">Fernandes projects highest at 8.2 but has missed a gameweek, so he is a 78% starter with a 0.0&ndash;16.5 spread. Gibbs-White at 7.7 with four starts from four is the higher-floor alternative if you prefer not to double an uncertain starter.</td></tr>
+<tr><td class="nm">In and out</td><td>Mbeumo in, McBurnie out<span class="team">both already in your squad</span></td>
+<td class="num">+3.9</td><td class="cmt">Free, and the largest single gain this week. McBurnie is Hull away at Newcastle on an 18.7% win probability; Mbeumo has the same fixture as Fernandes at two-thirds the price.</td></tr>
+<tr><td class="nm">Bench structure</td><td>1 Van Dijk, 2 McBurnie, 3 Konsa, GK Kinsky</td>
+<td class="num">&mdash;</td><td class="cmt">Van Dijk first because with three defenders starting only a defender can replace one. Konsa last — he leaves the squad if you take move 1. Kinsky is a fixed slot but has started all four for 16 points.</td></tr>
+</tbody></table></div>
+
+<h2>3 · Squad and candidates</h2>
+<div class="wrap"><table><thead><tr>
+<th class="nm">Player</th><th>Role</th><th class="num">xPts</th><th>Spread &plusmn;1 SD (0&ndash;14)</th>
+<th class="num">Last 4</th><th class="num">Starts</th><th>Opponent</th><th class="num">Own</th>
+<th class="num">Price</th><th class="num">xPts/&pound;m</th><th class="cmt">Note</th>
+</tr></thead><tbody><tr class=""><td class="nm">B.Fernandes<span class="team">MUN · MID</span></td>
+<td data-v="1">XI</td><td class="num" data-v="8.21">8.2</td>
+<td data-v="8.25"><div class="sp"><span class="lo" style="left:0.0%">0.0</span><div class="band" style="left:0.0%;width:117.6%"></div><span class="hi" style="left:117.6%">16.5</span><div class="tick" style="left:58.7%"></div></div></td><td class="num" data-v="9.00">9.0</td>
+<td class="num" data-v="3">3/4</td>
+<td>FUL (A)<span class="sub2">19th · -3 · W 47 / D 21 / L 31</span></td>
+<td class="num" data-v="42.8">42.8%</td><td class="num" data-v="12.0">£12.0m</td>
+<td class="num" data-v="0.68">0.68</td><td class="cmt">Captain. Three starts from four, so 78% start probability and the widest spread in the squad.</td></tr><tr class=""><td class="nm">Gibbs-White<span class="team">NFO · MID</span></td>
+<td data-v="1">XI</td><td class="num" data-v="7.69">7.7</td>
+<td data-v="4.16"><div class="sp"><span class="lo" style="left:25.2%">3.5</span><div class="band" style="left:25.2%;width:59.5%"></div><span class="hi" style="left:84.7%">11.9</span><div class="tick" style="left:54.9%"></div></div></td><td class="num" data-v="6.50">6.5</td>
+<td class="num" data-v="4">4/4</td>
+<td>COV (H)<span class="sub2">20th · -5 · W 64 / D 23 / L 12</span></td>
+<td class="num" data-v="9.7">9.7%</td><td class="num" data-v="7.9">£7.9m</td>
+<td class="num" data-v="0.97">0.97</td><td class="cmt">Vice. Four starts from four, 64% win probability.</td></tr><tr class=""><td class="nm">Gvardiol<span class="team">MCI · DEF</span></td>
+<td data-v="1">XI</td><td class="num" data-v="7.29">7.3</td>
+<td data-v="2.40"><div class="sp"><span class="lo" style="left:35.0%">4.9</span><div class="band" style="left:35.0%;width:34.2%"></div><span class="hi" style="left:69.2%">9.7</span><div class="tick" style="left:52.1%"></div></div></td><td class="num" data-v="7.33">7.3</td>
+<td class="num" data-v="3">3/4</td>
+<td>SUN (H)<span class="sub2">12th · +0 · W 73 / D 18 / L 9</span></td>
+<td class="num" data-v="20.5">20.5%</td><td class="num" data-v="5.6">£5.6m</td>
+<td class="num" data-v="1.30">1.30</td><td class="cmt">Best win probability of your players at 73%.</td></tr><tr class=""><td class="nm">Tavernier<span class="team">BOU · MID</span></td>
+<td data-v="1">XI</td><td class="num" data-v="7.28">7.3</td>
+<td data-v="3.69"><div class="sp"><span class="lo" style="left:25.7%">3.6</span><div class="band" style="left:25.7%;width:52.7%"></div><span class="hi" style="left:78.4%">11.0</span><div class="tick" style="left:52.0%"></div></div></td><td class="num" data-v="7.25">7.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>LIV (H)<span class="sub2">7th · +2 · W 40 / D 23 / L 37</span></td>
+<td class="num" data-v="4.1">4.1%</td><td class="num" data-v="6.0">£6.0m</td>
+<td class="num" data-v="1.21">1.21</td><td class="cmt">Joint-top scorer, 8 bonus. Your biggest differential at 4.1%.</td></tr><tr class=""><td class="nm">Tarkowski<span class="team">EVE · DEF</span></td>
+<td data-v="1">XI</td><td class="num" data-v="6.93">6.9</td>
+<td data-v="3.24"><div class="sp"><span class="lo" style="left:26.3%">3.7</span><div class="band" style="left:26.3%;width:46.3%"></div><span class="hi" style="left:72.7%">10.2</span><div class="tick" style="left:49.5%"></div></div></td><td class="num" data-v="7.25">7.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>IPS (H)<span class="sub2">14th · -4 · W 71 / D 17 / L 12</span></td>
+<td class="num" data-v="11.9">11.9%</td><td class="num" data-v="6.0">£6.0m</td>
+<td class="num" data-v="1.16">1.16</td><td class="cmt"></td></tr><tr class=""><td class="nm">João Pedro<span class="team">CHE · FWD</span></td>
+<td data-v="1">XI</td><td class="num" data-v="6.43">6.4</td>
+<td data-v="4.19"><div class="sp"><span class="lo" style="left:16.0%">2.2</span><div class="band" style="left:16.0%;width:59.9%"></div><span class="hi" style="left:75.9%">10.6</span><div class="tick" style="left:45.9%"></div></div></td><td class="num" data-v="8.25">8.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>BRE (A)<span class="sub2">5th · +3 · W 25 / D 21 / L 53</span></td>
+<td class="num" data-v="74.1">74.1%</td><td class="num" data-v="7.8">£7.8m</td>
+<td class="num" data-v="0.82">0.82</td><td class="cmt">74.1% owned — returns gain you almost no rank.</td></tr><tr class=""><td class="nm">Mbeumo<span class="team">MUN · MID</span></td>
+<td data-v="1">XI</td><td class="num" data-v="6.43">6.4</td>
+<td data-v="3.76"><div class="sp"><span class="lo" style="left:19.1%">2.7</span><div class="band" style="left:19.1%;width:53.7%"></div><span class="hi" style="left:72.8%">10.2</span><div class="tick" style="left:45.9%"></div></div></td><td class="num" data-v="7.00">7.0</td>
+<td class="num" data-v="3">3/4</td>
+<td>FUL (A)<span class="sub2">19th · -3 · W 47 / D 21 / L 31</span></td>
+<td class="num" data-v="23.6">23.6%</td><td class="num" data-v="7.9">£7.9m</td>
+<td class="num" data-v="0.81">0.81</td><td class="cmt"></td></tr><tr class=""><td class="nm">Rogers<span class="team">CHE · MID</span></td>
+<td data-v="1">XI</td><td class="num" data-v="5.38">5.4</td>
+<td data-v="2.37"><div class="sp"><span class="lo" style="left:21.5%">3.0</span><div class="band" style="left:21.5%;width:33.9%"></div><span class="hi" style="left:55.3%">7.7</span><div class="tick" style="left:38.4%"></div></div></td><td class="num" data-v="6.75">6.8</td>
+<td class="num" data-v="4">4/4</td>
+<td>BRE (A)<span class="sub2">5th · +3 · W 25 / D 21 / L 53</span></td>
+<td class="num" data-v="35.3">35.3%</td><td class="num" data-v="7.7">£7.7m</td>
+<td class="num" data-v="0.70">0.70</td><td class="cmt">Hardest fixture in the XI. Swap candidate for Cherki.</td></tr><tr class=""><td class="nm">Raya<span class="team">ARS · GK</span></td>
+<td data-v="1">XI</td><td class="num" data-v="5.20">5.2</td>
+<td data-v="3.71"><div class="sp"><span class="lo" style="left:10.7%">1.5</span><div class="band" style="left:10.7%;width:53.0%"></div><span class="hi" style="left:63.7%">8.9</span><div class="tick" style="left:37.2%"></div></div></td><td class="num" data-v="7.25">7.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>BHA (A)<span class="sub2">10th · +3 · W 55 / D 25 / L 20</span></td>
+<td class="num" data-v="39.2">39.2%</td><td class="num" data-v="6.0">£6.0m</td>
+<td class="num" data-v="0.87">0.87</td><td class="cmt"></td></tr><tr class=""><td class="nm">Wissa<span class="team">NEW · FWD</span></td>
+<td data-v="1">XI</td><td class="num" data-v="4.08">4.1</td>
+<td data-v="3.33"><div class="sp"><span class="lo" style="left:5.4%">0.8</span><div class="band" style="left:5.4%;width:47.6%"></div><span class="hi" style="left:53.0%">7.4</span><div class="tick" style="left:29.2%"></div></div></td><td class="num" data-v="4.33">4.3</td>
+<td class="num" data-v="3">3/4</td>
+<td>HUL (H)<span class="sub2">3th · +3 · W 58 / D 23 / L 19</span></td>
+<td class="num" data-v="18.4">18.4%</td><td class="num" data-v="6.2">£6.2m</td>
+<td class="num" data-v="0.66">0.66</td><td class="cmt"></td></tr><tr class=""><td class="nm">Ajer<span class="team">BRE · DEF</span></td>
+<td data-v="1">XI</td><td class="num" data-v="3.38">3.4</td>
+<td data-v="2.87"><div class="sp"><span class="lo" style="left:3.6%">0.5</span><div class="band" style="left:3.6%;width:41.0%"></div><span class="hi" style="left:44.6%">6.2</span><div class="tick" style="left:24.1%"></div></div></td><td class="num" data-v="3.50">3.5</td>
+<td class="num" data-v="4">4/4</td>
+<td>CHE (H)<span class="sub2">4th · +1 · W 53 / D 21 / L 25</span></td>
+<td class="num" data-v="4.6">4.6%</td><td class="num" data-v="4.5">£4.5m</td>
+<td class="num" data-v="0.75">0.75</td><td class="cmt">Starts as third defender on 41 defensive contributions, most in the squad.</td></tr><tr class=""><td class="nm">Kinsky<span class="team">TOT · GK</span></td>
+<td data-v="5">B GK</td><td class="num" data-v="3.14">3.1</td>
+<td data-v="2.64"><div class="sp"><span class="lo" style="left:3.5%">0.5</span><div class="band" style="left:3.5%;width:37.8%"></div><span class="hi" style="left:41.3%">5.8</span><div class="tick" style="left:22.4%"></div></div></td><td class="num" data-v="4.00">4.0</td>
+<td class="num" data-v="4">4/4</td>
+<td>AVL (H)<span class="sub2">17th · -5 · W 36 / D 29 / L 35</span></td>
+<td class="num" data-v="18.5">18.5%</td><td class="num" data-v="4.5">£4.5m</td>
+<td class="num" data-v="0.70">0.70</td><td class="cmt">Started all four for 16 points. A real bench asset.</td></tr><tr class=""><td class="nm">Virgil<span class="team">LIV · DEF</span></td>
+<td data-v="2">B1</td><td class="num" data-v="2.66">2.7</td>
+<td data-v="2.98"><div class="sp"><span class="lo" style="left:0.0%">0.0</span><div class="band" style="left:0.0%;width:40.3%"></div><span class="hi" style="left:40.3%">5.6</span><div class="tick" style="left:19.0%"></div></div></td><td class="num" data-v="4.25">4.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>BOU (A)<span class="sub2">15th · -1 · W 37 / D 23 / L 40</span></td>
+<td class="num" data-v="16.9">16.9%</td><td class="num" data-v="6.5">£6.5m</td>
+<td class="num" data-v="0.41">0.41</td><td class="cmt">Drops to bench. Liverpool rate as average defensively, 18% away clean sheet.</td></tr><tr class=""><td class="nm">McBurnie<span class="team">HUL · FWD</span></td>
+<td data-v="3">B2</td><td class="num" data-v="2.56">2.6</td>
+<td data-v="2.60"><div class="sp"><span class="lo" style="left:0.0%">0.0</span><div class="band" style="left:0.0%;width:36.9%"></div><span class="hi" style="left:36.9%">5.2</span><div class="tick" style="left:18.3%"></div></div></td><td class="num" data-v="3.00">3.0</td>
+<td class="num" data-v="4">4/4</td>
+<td>NEW (A)<span class="sub2">8th · +2 · W 19 / D 23 / L 58</span></td>
+<td class="num" data-v="1.9">1.9%</td><td class="num" data-v="5.5">£5.5m</td>
+<td class="num" data-v="0.47">0.47</td><td class="cmt">Lowest projection. Leaves the XI.</td></tr><tr class=""><td class="nm">Konsa<span class="team">ARS · DEF</span></td>
+<td data-v="4">B3</td><td class="num" data-v="2.12">2.1</td>
+<td data-v="2.57"><div class="sp"><span class="lo" style="left:0.0%">0.0</span><div class="band" style="left:0.0%;width:33.5%"></div><span class="hi" style="left:33.5%">4.7</span><div class="tick" style="left:15.1%"></div></div></td><td class="num" data-v="2.75">2.8</td>
+<td class="num" data-v="2">2/4</td>
+<td>BHA (A)<span class="sub2">10th · +3 · W 55 / D 25 / L 20</span></td>
+<td class="num" data-v="17.1">17.1%</td><td class="num" data-v="4.5">£4.5m</td>
+<td class="num" data-v="0.47">0.47</td><td class="cmt">Two starts from four, no bonus. Primary sell candidate.</td></tr><tr class="new"><td class="nm">Murillo<span class="team">NFO · DEF</span></td>
+<td data-v="0">IN</td><td class="num" data-v="5.87">5.9</td>
+<td data-v="2.80"><div class="sp"><span class="lo" style="left:21.9%">3.1</span><div class="band" style="left:21.9%;width:40.0%"></div><span class="hi" style="left:61.9%">8.7</span><div class="tick" style="left:41.9%"></div></div></td><td class="num" data-v="4.75">4.8</td>
+<td class="num" data-v="4">4/4</td>
+<td>COV (H)<span class="sub2">20th · -5 · W 64 / D 23 / L 12</span></td>
+<td class="num" data-v="1.7">1.7%</td><td class="num" data-v="5.5">£5.5m</td>
+<td class="num" data-v="1.07">1.07</td><td class="cmt">Recommended in. Four starts, 1.7% owned, Forest host bottom-placed Coventry.</td></tr><tr class="new"><td class="nm">Cherki<span class="team">MCI · MID</span></td>
+<td data-v="0">IN</td><td class="num" data-v="5.67">5.7</td>
+<td data-v="4.26"><div class="sp"><span class="lo" style="left:10.1%">1.4</span><div class="band" style="left:10.1%;width:60.8%"></div><span class="hi" style="left:70.9%">9.9</span><div class="tick" style="left:40.5%"></div></div></td><td class="num" data-v="8.33">8.3</td>
+<td class="num" data-v="2">2/4</td>
+<td>SUN (H)<span class="sub2">12th · +0 · W 73 / D 18 / L 9</span></td>
+<td class="num" data-v="29.3">29.3%</td><td class="num" data-v="7.8">£7.8m</td>
+<td class="num" data-v="0.73">0.73</td><td class="cmt">Alternative in. Only two starts from four — that is why the gain is small.</td></tr><tr class="new"><td class="nm">White<span class="team">ARS · DEF</span></td>
+<td data-v="0">IN</td><td class="num" data-v="4.33">4.3</td>
+<td data-v="3.77"><div class="sp"><span class="lo" style="left:4.0%">0.6</span><div class="band" style="left:4.0%;width:53.8%"></div><span class="hi" style="left:57.8%">8.1</span><div class="tick" style="left:30.9%"></div></div></td><td class="num" data-v="5.25">5.2</td>
+<td class="num" data-v="4">4/4</td>
+<td>BHA (A)<span class="sub2">10th · +3 · W 55 / D 25 / L 20</span></td>
+<td class="num" data-v="7.4">7.4%</td><td class="num" data-v="5.5">£5.5m</td>
+<td class="num" data-v="0.79">0.79</td><td class="cmt">Alternative in. Safer, lower ceiling.</td></tr><tr class="new"><td class="nm">Gabriel<span class="team">ARS · DEF</span></td>
+<td data-v="0">IN</td><td class="num" data-v="4.11">4.1</td>
+<td data-v="2.90"><div class="sp"><span class="lo" style="left:8.7%">1.2</span><div class="band" style="left:8.7%;width:41.4%"></div><span class="hi" style="left:50.1%">7.0</span><div class="tick" style="left:29.4%"></div></div></td><td class="num" data-v="6.00">6.0</td>
+<td class="num" data-v="4">4/4</td>
+<td>BHA (A)<span class="sub2">10th · +3 · W 55 / D 25 / L 20</span></td>
+<td class="num" data-v="23.7">23.7%</td><td class="num" data-v="8.0">£8.0m</td>
+<td class="num" data-v="0.51">0.51</td><td class="cmt">Alternative in. Costs £1.5m and leaves only £0.1m banked.</td></tr></tbody>
+<tfoot><tr><td class="nm">Starting XI</td><td>11</td><td class="num">76.5</td><td></td><td class="num">&mdash;</td>
+<td class="num">&mdash;</td><td>&mdash;</td><td class="num">25.8%</td><td class="num">&pound;77.6m</td>
+<td class="num">0.99</td>
+<td class="cmt">68.3 from eleven players plus 8.2 for the doubled captain. Bench excluded.</td></tr></tfoot>
+</table></div>
+<p class="key">Click any header to sort. Spread band is one standard deviation either side of the projection on a fixed 0&ndash;14 scale, labelled at both ends, dark tick at the projection. Green rows are transfer candidates from section 1.</p>
+
+<h2>4 · Chip plan</h2>
+<div class="wrap"><table class="nosort"><thead><tr>
+<th class="nm">Chip</th><th>Target</th><th>Backstop</th><th class="cmt">Condition</th></tr></thead><tbody>
+<tr><td class="nm">Triple Captain</td><td>GW8</td><td>GW14</td>
+<td class="cmt">Man Utd host Bournemouth. Requires Fernandes to have started the two preceding gameweeks, since he has already missed one.</td></tr>
+<tr><td class="nm">Bench Boost</td><td>GW10&ndash;12</td><td>GW16</td>
+<td class="cmt">Your bench has already produced 52 points across Kinsky, Ajer and Gvardiol. Konsa is the only genuinely weak slot, and move 1 removes him.</td></tr>
+<tr><td class="nm">Wildcard</td><td>GW13&ndash;14</td><td>GW15</td>
+<td class="cmt">Only if three or more players need replacing at once. Otherwise leave it unused.</td></tr>
+<tr><td class="nm">Free Hit</td><td>GW16&ndash;18</td><td>GW18</td>
+<td class="cmt">No blank gameweek exists before the reset, so there is no ideal target. Spend it on the worst fixture week rather than forfeit it.</td></tr>
+</tbody></table></div>
+<p class="key">All four expire at the GW19 deadline on Thursday 1 January. A second set unlocks for GW20&ndash;38.</p>
+<script>document.querySelectorAll('table:not(.nosort)').forEach(function(tb){
+var ths=tb.querySelectorAll('thead th');ths.forEach(function(th,i){th.addEventListener('click',function(){
+var desc=!th.classList.contains('desc');ths.forEach(function(o){o.classList.remove('asc','desc')});
+th.classList.add(desc?'desc':'asc');var body=tb.querySelector('tbody');
+var rows=[].slice.call(body.querySelectorAll('tr'));
+rows.sort(function(a,b){var x=a.children[i],y=b.children[i];
+var xv=x.hasAttribute('data-v')?parseFloat(x.getAttribute('data-v')):NaN;
+var yv=y.hasAttribute('data-v')?parseFloat(y.getAttribute('data-v')):NaN;
+if(isNaN(xv)||isNaN(yv)){xv=x.textContent.trim().toLowerCase();yv=y.textContent.trim().toLowerCase();
+return desc?(yv<xv?-1:yv>xv?1:0):(xv<yv?-1:xv>yv?1:0);}return desc?yv-xv:xv-yv;});
+rows.forEach(function(r){body.appendChild(r)});});});});</script></body></html>
