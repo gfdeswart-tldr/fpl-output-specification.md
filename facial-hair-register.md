@@ -27,7 +27,7 @@ Bruno Fernandes (MUN) · Morgan Rogers (CHE) · Marcus Tavernier (BOU) · Gibbs-
 Mbeumo (MUN) · Semenyo (MCI) · Cunha (MUN) · Florian Wirtz (LIV) · Rayan Cherki (MCI) ·
 Doku (MCI) · Szoboszlai (LIV) · Gakpo (LIV) · Enzo Fernández (CHE) · Rashford (MUN) ·
 Bruno Guimarães (ARS) · Dewsbury-Hall (EVE) · Eze (ARS) · Maddison (TOT) · Pedro Neto (CHE) ·
-Sávio (TOT) · Dango Ouattara (BRE) · Junior Kroupi (BOU)
+Sávio (TOT) · Dango Ouattara (BRE) · Junior Kroupi (BOU) · Cole Palmer (CHE) · 
 
 ### Forwards
 João Pedro (CHE) · McBurnie (HUL) · Wissa (NEW) · Isak (LIV) · Igor Thiago (BRE) ·
@@ -47,7 +47,7 @@ Nico O'Reilly (MCI) · Marc Guéhi (MCI) · Calafiori (ARS) · Pedro Porro (TOT)
 Branthwaite (EVE) · Milenković (NFO) · Khusanov (MCI)
 
 ### Midfielders
-Cole Palmer (CHE) · Saka (ARS) · Declan Rice (ARS) · Foden (MCI) · Ødegaard (ARS) ·
+Saka (ARS) · Declan Rice (ARS) · Foden (MCI) · Ødegaard (ARS) ·
 Tzolis (ARS) · Harry Wilson (LEE) · Estêvão (CHE)
 
 ### Forwards
