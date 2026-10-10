@@ -13,26 +13,26 @@ Team labels are as of the 2026/27 season data and may change with transfers.
 
 ### Goalkeepers
 Raya (ARS) · Kinsky (TOT) · Donnarumma (MCI) · Alisson (LIV) · Robert Sánchez (CHE) ·
-Trafford (LEE) · Kelleher (BRE) · Mamardashvili (LIV) · Verbruggen (BHA)
+Trafford (LEE) · Kelleher (BRE) · Mamardashvili (LIV) · Verbruggen (BHA) · 
 
 ### Defenders
 Konsa (ARS) · Tarkowski (EVE) · Virgil van Dijk (LIV) · Gvardiol (MCI) · Ajer (BRE) ·
 Gabriel (ARS) · Lacroix (CHE) · Senesi (TOT) · Matheus Nunes (MCI) · Reece James (CHE) ·
 Daniel Muñoz (CRY) · Ben White (ARS) · Mosquera (ARS) · Kerkez (LIV) · Frimpong (LIV) ·
 Ronald Araújo (LIV) · Nathan Collins (BRE) · Rúben Dias (MCI) · Murillo (NFO) ·
-Truffert (BOU) · James Hill (BOU) · Mukiele (SUN)
+Truffert (BOU) · James Hill (BOU) · Mukiele (SUN) · Jayden Bogle (LEE) · Tyrick Mitchell (CRY) · Marc Guéhi (MCI) · Semi Ajayi (HUL) · Issa Diop (IPS) · Jay Dasilva (COV) · Leif Davis (IPS) · Tarik Muharemović (LEE)
 
 ### Midfielders
 Bruno Fernandes (MUN) · Morgan Rogers (CHE) · Marcus Tavernier (BOU) · Gibbs-White (NFO) ·
 Mbeumo (MUN) · Semenyo (MCI) · Cunha (MUN) · Florian Wirtz (LIV) · Rayan Cherki (MCI) ·
 Doku (MCI) · Szoboszlai (LIV) · Gakpo (LIV) · Enzo Fernández (CHE) · Rashford (MUN) ·
 Bruno Guimarães (ARS) · Dewsbury-Hall (EVE) · Eze (ARS) · Maddison (TOT) · Pedro Neto (CHE) ·
-Sávio (TOT) · Dango Ouattara (BRE) · Junior Kroupi (BOU) · Cole Palmer (CHE) · 
+Sávio (TOT) · Dango Ouattara (BRE) · Junior Kroupi (BOU) · Cole Palmer (CHE) · Kevin Schade (BRE) · Mohamed Belloumi (HUL)
 
 ### Forwards
 João Pedro (CHE) · McBurnie (HUL) · Wissa (NEW) · Isak (LIV) · Igor Thiago (BRE) ·
 Ollie Watkins (AVL) · Havertz (ARS) · Ekitiké (LIV) · Marmoush (MCI) · Mateta (CRY) ·
-Calvert-Lewin (LEE) · Woltemade (NEW) · Brobbey (SUN)
+Calvert-Lewin (LEE) · Woltemade (NEW) · Brobbey (SUN) · Charalampos Kostoulas (BHA)
 
 ---
 
@@ -40,19 +40,19 @@ Calvert-Lewin (LEE) · Woltemade (NEW) · Brobbey (SUN)
 
 ### Goalkeepers
 Pickford (EVE) · Emiliano Martínez (AVL) · Sels (NFO) · Pope (NEW) · Dean Henderson (CRY) ·
-Lammens (MUN) · Roefs (SUN) · Leno (FUL) · Petrović (BOU)
+Lammens (MUN) · Roefs (SUN) · Leno (FUL) · Petrović (BOU) · 
 
 ### Defenders
-Nico O'Reilly (MCI) · Marc Guéhi (MCI) · Calafiori (ARS) · Pedro Porro (TOT) ·
-Branthwaite (EVE) · Milenković (NFO) · Khusanov (MCI)
+Nico O'Reilly (MCI) ·  Calafiori (ARS) · Pedro Porro (TOT) ·
+Branthwaite (EVE) · Milenković (NFO) · Khusanov (MCI) · Lewis Hall (NEW)
 
 ### Midfielders
 Saka (ARS) · Declan Rice (ARS) · Foden (MCI) · Ødegaard (ARS) ·
-Tzolis (ARS) · Harry Wilson (LEE) · Estêvão (CHE)
+Tzolis (ARS) · Harry Wilson (LEE) · Estêvão (CHE) · Harvey Barnes (NEW) · Pascal Groß (BHA)
 
 ### Forwards
 Richarlison (TOT) · Haaland (MCI) · Gyökeres (ARS) · Šeško (MUN) · Nicolás Jackson (CHE) ·
-Igor Jesus (NFO) · Evanilson (BOU)
+Igor Jesus (NFO) · Evanilson (BOU) · 
 
 ---
 
