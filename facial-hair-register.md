@@ -69,5 +69,3 @@ budget options matter.
 - Squad must be 2 GK / 5 DEF / 5 MID / 3 FWD, max 3 players per club, £100.0m budget.
 - Current bind: eligible defenders cluster heavily at Liverpool and Man City, so the
   3-per-club cap is likely to bite before quality does.
-- The premium attacking bracket is thin — Haaland, Saka, Palmer and Ødegaard are all
-  ineligible. Isak and Bruno Fernandes are the main premium routes.
