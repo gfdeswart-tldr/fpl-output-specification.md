@@ -20,7 +20,7 @@ Konsa (ARS) · Tarkowski (EVE) · Virgil van Dijk (LIV) · Gvardiol (MCI) · Aje
 Gabriel (ARS) · Lacroix (CHE) · Senesi (TOT) · Matheus Nunes (MCI) · Reece James (CHE) ·
 Daniel Muñoz (CRY) · Ben White (ARS) · Mosquera (ARS) · Kerkez (LIV) · Frimpong (LIV) ·
 Ronald Araújo (LIV) · Nathan Collins (BRE) · Rúben Dias (MCI) · Murillo (NFO) ·
-Truffert (BOU) · James Hill (BOU) · Mukiele (SUN) · Jayden Bogle (LEE) · Tyrick Mitchell (CRY) · Marc Guéhi (MCI) · Semi Ajayi (HUL) · Issa Diop (IPS) · Jay Dasilva (COV) · Leif Davis (IPS) · Tarik Muharemović (LEE)  · Maxim de Cuyper (BHA)
+Truffert (BOU) · James Hill (BOU) · Mukiele (SUN) · Jayden Bogle (LEE) · Tyrick Mitchell (CRY) · Marc Guéhi (MCI) · Semi Ajayi (HUL) · Issa Diop (IPS) · Jay Dasilva (COV) · Leif Davis (IPS) · Tarik Muharemović (LEE)  · Maxim de Cuyper (BHA) · Hall (NEW)
 
 ### Midfielders
 Bruno Fernandes (MUN) · Morgan Rogers (CHE) · Marcus Tavernier (BOU) · Gibbs-White (NFO) ·
