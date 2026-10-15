@@ -13,7 +13,7 @@ Two sections of bullets, nothing else. No table in the chat, no restating the fi
 **Section 1 — Transfers.** One bullet per option, ranked best to worst, each naming the move,
 the price, the projected gain, and one or two sentences on why. Refer to the move number in
 the table rather than reproducing its numbers. Include rolling the transfer as an option
-whenever it is competitive. Add a Google Images link for every player recommended in.
+whenever it is competitive.
 
 **Section 2 — Everything else.** One bullet each for:
 - captain and vice, with the case for the alternative if it is close
@@ -115,14 +115,13 @@ One row per item. Columns:
 
 - **Item** — what needs checking, in one line
 - **Why it matters** — the decision it affects, and the points at stake if it goes the other way
-- **Where to look** — a live link: Google Images for facial hair, the FPL app for bank and squad,
+- **Where to look** — a live link: the FPL app for bank and squad,
   Pundit or Scout for team news, a club source for a press conference
 - **Deadline** — when it stops being useful, usually the gameweek deadline, sometimes earlier
 - **If unchecked** — the assumption the run proceeded on, stated explicitly
 
 Items that always appear when true:
 
-- Facial-hair checks on any player recommended in, and on any name not on the register
 - Bank and squad value, whenever the run is working from a carried figure rather than a verified one
 - Any player the run could not price or project because the mirror lacked a history file
 - Any source that failed to fetch after one retry
